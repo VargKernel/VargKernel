@@ -8,7 +8,6 @@ Interested in:
 - Virtual machines
 - Infrastructure tools
 - Automation and autonomy
-- C++ and Python
 - Terminal workflows
 
 ## Infrastructure & Systems
