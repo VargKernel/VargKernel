@@ -1,16 +1,32 @@
 ## Hi there 👋
 
-<!--
-**VargKernel/VargKernel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Focused on Linux-based systems, virtualization, self-hosting, monitoring systems, software development, automation, and autonomous workflows.
 
-Here are some ideas to get you started:
+Interested in:
+- Linux ecosystem
+- Docker and containers
+- Virtual machines
+- Infrastructure tools
+- Automation and autonomy
+- C++ and Python
+- Terminal workflows
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Infrastructure & Systems
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux,nginx,docker,bash" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/qemu/FF6600" width="48" height="48" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/virtualbox/183A61" width="48" height="48" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/grafana/F46800" width="48" height="48" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/prometheus/E6522C" width="48" height="48" />
+</p>
+
+## Programming
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,cpp" />
+</p>
