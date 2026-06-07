@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Focused on Linux-based systems, virtualization, self-hosting, monitoring systems, infrastructure deelopment, automation, and autonomous workflows.
+Focused on Linux-based systems, virtualization, self-hosting, monitoring systems, infrastructure development, automation, and autonomous workflows.
 
 Interested in:
 - Linux ecosystem
