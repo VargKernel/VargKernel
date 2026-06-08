@@ -1,14 +1,8 @@
 ## Hi there 👋
 
-Focused on Linux-based systems, virtualization, self-hosting, monitoring systems, infrastructure development, automation, and autonomous workflows.
+Focused on Linux systems, self-hosting, virtualization, infrastructure management, monitoring, and automation.
 
-Interested in:
-- Linux ecosystem
-- Docker and containers
-- Virtual machines
-- Infrastructure tools
-- Automation and autonomy
-- Terminal workflows
+# My Tech Stack:
 
 ## Infrastructure & Systems
 
@@ -22,9 +16,11 @@ Interested in:
   <img src="https://cdn.simpleicons.org/grafana/F46800" width="48" height="48" />
   &nbsp;
   <img src="https://cdn.simpleicons.org/prometheus/E6522C" width="48" height="48" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/portainer/13BEF9" width="48" height="48" />
 </p>
 
-## Programming
+## Programming enthusiast
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,cpp" />
