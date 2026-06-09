@@ -1,27 +1,30 @@
-## Hi there 👋
+## Hey, I'm VargKernel 👾
 
-Focused on Linux systems, self-hosting, virtualization, infrastructure management, monitoring, and automation.
+Linux sysadmin. Focused on self-hosting, infrastructure automation, and monitoring.
 
-# My Tech Stack:
+## Tech Stack
 
-## Infrastructure & Systems
-
+**Systems & Virtualization**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,nginx,docker,bash" />
+  <img src="https://skillicons.dev/icons?i=linux,debian" />
   &nbsp;
-  <img src="https://cdn.simpleicons.org/qemu/FF6600" width="48" height="48" />
+  <img src="https://cdn.simpleicons.org/virtualbox/183A61" width="48" height="48" title="VirtualBox" />
   &nbsp;
-  <img src="https://cdn.simpleicons.org/virtualbox/183A61" width="48" height="48" />
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/grafana/F46800" width="48" height="48" />
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/prometheus/E6522C" width="48" height="48" />
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/portainer/13BEF9" width="48" height="48" />
+  <img src="https://cdn.simpleicons.org/qemu/FF6600" width="48" height="48" title="QEMU/KVM" />
 </p>
 
-## Programming enthusiast
-
+**Web, Containers & Monitoring**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp" />
+  <img src="https://skillicons.dev/icons?i=nginx,docker" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/grafana/F46800" width="48" height="48" title="Grafana" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/prometheus/E6522C" width="48" height="48" title="Prometheus" />
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/portainer/13BEF9" width="48" height="48" title="Portainer" />
+</p>
+
+**Scripting**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=bash,python" />
 </p>
