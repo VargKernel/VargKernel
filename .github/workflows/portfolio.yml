@@ -1,0 +1,62 @@
+name: Update Portfolio
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install VHS + ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg curl unzip gnupg fontconfig
+          curl -fsSL https://repo.charm.sh/apt/gpg.key \
+            | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+          echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" \
+            | sudo tee /etc/apt/sources.list.d/charm.list
+          sudo apt-get update -qq
+          sudo apt-get install -y vhs
+          vhs --version
+
+      - name: Install ttyd
+        run: |
+          # For Ubuntu/Debian:
+          sudo apt-get update
+          sudo apt-get install -y ttyd
+
+      - name: Install JetBrainsMono Nerd Font
+        run: |
+          mkdir -p ~/.local/share/fonts
+          curl -fsSL \
+            "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip" \
+            -o /tmp/jbm.zip
+          unzip -q /tmp/jbm.zip -d ~/.local/share/fonts
+          fc-cache -f
+
+      - name: Clean previous output
+        run: rm -f portfolio.png
+
+      - name: Render portfolio
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TERM: xterm-256color
+          COLUMNS: "110"
+        run: vhs portfolio.tape
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add portfolio.png
+          git diff --cached --quiet && echo "[i] No changes." && exit 0
+          git commit -m "chore: update portfolio $(date -u +%Y-%m-%d)"
+          git push
