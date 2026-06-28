@@ -52,6 +52,10 @@ jobs:
           COLUMNS: "110"
         run: vhs portfolio.tape
 
+      - name: Verify output
+        run: |
+          ls -lh portfolio.png || { echo "##[error] portfolio.png not found!"; exit 1; }
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
