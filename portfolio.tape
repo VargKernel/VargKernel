@@ -8,5 +8,5 @@ Set MarginFill "#1e1e2e"
 
 Type "bash git-fetch.sh"
 Enter
-Sleep 60s
+Sleep 2m
 Screenshot portfolio.png
