@@ -145,6 +145,7 @@ printf "\n"
 printf "%b%b$GITHUB_USER%b@%bgithub%b\n" "$BOLD" "$RED" "$RESET" "$RED" "$RESET"
 printf "%b–––––––––––––––––%b\n" "$DIM" "$RESET"
 
+info "Date"   "$(date '+%I:%M %p %m:%d:%Y')"
 info "Whoami" "$GITHUB_USER"
 info "Host"   "github.com"
 info "Role"   "Linux SysAdmin"
