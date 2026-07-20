@@ -220,7 +220,7 @@ get_top_languages() {
         esac
 
         printf "%s|%s|%s\n" "$lang" "$icon" "$percent"
-    done | sort -t'|' -k3 -nr | head -n 5
+    done | sort -t'|' -k3 -nr
 }
 
 TOP_LANGS_DATA=$(get_top_languages)
