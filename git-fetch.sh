@@ -126,7 +126,8 @@ hide_spinner() {
 }
 
 printf "\n"
-printf "%b%b$GITHUB_USER%b@%bgithub%b\n" "RED" "$RED" "$RESET" "$RED" "$RESET"
+printf "%b%b$GITHUB_USER%b@%bgithub%b\n" \
+    "$RED" "$RESET" "$RED" "$RESET"
 printf "%b–––––––––––––––––%b\n" "$DIM" "$RESET"
 
 info "Date"   "$(date '+%I:%M %p %Z %m:%d:%Y')"
